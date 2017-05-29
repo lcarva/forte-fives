@@ -1,4 +1,4 @@
-import rules
+from forte_fives import rules
 
 import random
 

@@ -1,4 +1,4 @@
-import card
+from forte_fives import card
 
 
 class Hand(object):

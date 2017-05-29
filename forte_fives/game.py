@@ -1,7 +1,7 @@
-import deck
-import hand
-import scoreboard
-import rules
+from forte_fives import deck
+from forte_fives import hand
+from forte_fives import scoreboard
+from forte_fives import rules
 
 
 class Game(object):
@@ -210,7 +210,7 @@ class Game(object):
                 p.hand.add_card(self.deck.pick_card())
 
 if __name__ == '__main__':
-    import player
+    from forte_fives import player
     p1 = player.Player('Bruce Lee')
     p2 = player.Player('John Rambo')
     p3 = player.Player('Van Damme')

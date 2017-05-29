@@ -1,4 +1,4 @@
-import card
+from forte_fives import card
 
 """"
 This file contains the rules of the game 45s.

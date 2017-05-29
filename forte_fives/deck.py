@@ -1,4 +1,6 @@
-import card
+from forte_fives import card
+
+
 import random
 
 

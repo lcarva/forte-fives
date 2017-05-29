@@ -1,6 +1,6 @@
-import card
-import intel
-import rules
+from forte_fives import card
+from forte_fives import intel
+from forte_fives import rules
 
 
 class BadMoveException(Exception):
