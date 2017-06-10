@@ -16,5 +16,8 @@ setup(
     author_email='luizcarvalho85@gmail.com',
     url='https://github.com/lcarva/forte-fives',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    entry_points = {
+        'console_scripts': ['forte-fives=forte_fives.cli:main']
+    },
 )
