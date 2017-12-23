@@ -52,3 +52,9 @@ class ScoreBoard(object):
         Returns the current score for the given player.
         """
         return self._values[name]
+
+    def get_winner(self):
+        """
+        Returns the name of player with highest score.
+        """
+        return max(self._values.items(), key=lambda x: x[-1])[0]
