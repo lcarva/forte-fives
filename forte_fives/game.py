@@ -30,7 +30,7 @@ class Game(object):
         while self.should_continue():
             self.play_round()
 
-        # TODO: Determine the winner of the game.
+        print 'The game winner is ' + self.score_board.get_winner()
 
     def should_continue(self):
         """
